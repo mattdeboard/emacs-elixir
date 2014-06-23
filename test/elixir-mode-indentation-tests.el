@@ -57,16 +57,13 @@ end")
   "
 a = 2
 
-b = a + 3
-
-c = a + b"
+b = 1 + 3
+"
   "
 a = 2
 
-b = a + 3
-
-c = a + b")
-
+b = 1 + 3
+")
 
 (elixir-def-indentation-test indents-function-calls-without-parens ()
   "
